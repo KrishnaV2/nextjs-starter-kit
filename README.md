@@ -11,7 +11,6 @@ Powered by Better-T-Stack.
 - **Drizzle** - TypeScript-first ORM
 - **PostgreSQL** - Database engine
 - **Authentication** - Better-Auth
-- **Turborepo** - Optimized monorepo build system
 
 ## Getting Started
 
