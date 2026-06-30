@@ -1,0 +1,5 @@
+{
+  "*": "oxfmt --no-error-on-unmatched-pattern",
+  "*.{js,jsx,ts,tsx,mjs}": ["pnpm lint"],
+  "*.json": "pnpm fmt"
+}
