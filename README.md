@@ -11,13 +11,15 @@ Powered by Better-T-Stack.
 - **Drizzle** - TypeScript-first ORM
 - **PostgreSQL** - Database engine
 - **Authentication** - Better-Auth
+- **Oxc** - Linter + Formatter
+- **Husky + Lint-Staged** - Pre-commit hooks
 
 ## Getting Started
 
 First, install the dependencies:
 
 ```bash
-bun install
+pn install
 ```
 
 ## Database Setup
@@ -30,13 +32,13 @@ This project uses PostgreSQL with Drizzle ORM.
 3. Apply the schema to your database:
 
 ```bash
-bun run db:push
+pn run db:push
 ```
 
 Then, run the development server:
 
 ```bash
-bun run dev
+pn run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) in your browser to see the fullstack application.
@@ -57,8 +59,8 @@ nextjs-starter-kit/
 
 ## Available Scripts
 
-- `bun run dev`: Start all applications in development mode
-- `bun run build`: Build all applications
-- `bun run check-types`: Check TypeScript types across all apps
-- `bun run db:push`: Push schema changes to database
-- `bun run db:studio`: Open database studio UI
+- `pn run dev`: Start all applications in development mode
+- `pn run build`: Build all applications
+- `pn run check-types`: Check TypeScript types across all apps
+- `pn run db:push`: Push schema changes to database
+- `pn run db:studio`: Open database studio UI
